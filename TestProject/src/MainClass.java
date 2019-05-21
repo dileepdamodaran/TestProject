@@ -2,18 +2,22 @@
 public class MainClass {
 	 public static void main (String args[])
 	 {
-		 System.out.println("First commit");
-		 int i []= {1,6,2,8,3,4,6};
-		 System.out.println("i length "+i.length);
-		 for(int l=0;l<i.length;l++) {
-			 myOwnSort(i, l);
-		 }
-		
-		 for(int j=0; j<i.length;j++) {
-			 System.out.println("value of j "+i[j]);
-			 
-			 
-		 }
+		/*
+		 * System.out.println("First commit"); int i []= {1,6,2,8,3,4,6};
+		 * System.out.println("i length "+i.length); for(int l=0;l<i.length;l++) {
+		 * myOwnSort(i, l); }
+		 */
+		// BubbleSort bubbleSort = new BubbleSort();
+		 //bubbleSort.bubbleSort();
+		 QuickSort quickSort=new QuickSort();
+		 quickSort.quickSort();
+		/*
+		 * for(int j=0; j<i.length;j++) { System.out.println("value of j "+i[j]);
+		 * 
+		 * 
+		 * }
+		 */
+		 
 	 }
 	 
 	 public static void myOwnSort(int[] i,int strtIndx) {
