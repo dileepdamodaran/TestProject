@@ -9,7 +9,7 @@ public class Singleton {
 		return singleton;
 	}
 	
-	protected static void demoMethod() {
+	protected  void demoMethod() {
 		System.out.println("testing");
 	}
 }

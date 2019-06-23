@@ -11,6 +11,11 @@ public class MainClass {
 		 //bubbleSort.bubbleSort();
 		 QuickSort quickSort=new QuickSort();
 		 quickSort.quickSort();
+		 String test="testing";
+		 Singleton singleton = Singleton.getInstance();
+		 singleton.demoMethod();
+		 testMethod(test);
+		 System.out.println(test);
 		/*
 		 * for(int j=0; j<i.length;j++) { System.out.println("value of j "+i[j]);
 		 * 
@@ -20,7 +25,12 @@ public class MainClass {
 		 
 	 }
 	 
-	 public static void myOwnSort(int[] i,int strtIndx) {
+	 private static void testMethod(String test) {
+		test="text modfiied";
+		
+	}
+
+	public static void myOwnSort(int[] i,int strtIndx) {
 		 for(int k=strtIndx; k+1<i.length;k++) {
 			 System.out.println("value of k "+k);
 			 if(i[k+1]<i[k]) {
