@@ -7,16 +7,23 @@ public class TestJava {
 		
 		findMid(arr,0,length-1,2);
 		System.out.println(checkPalindrome("malayalam"));
+		Character a='a';
+		Character b='d';
+		System.out.println("a less than b "+(a<b));
 		calculateBinaryRepresentation(75);
 	}
 
+	
+	
 	private static void calculateBinaryRepresentation(int n) {
 		// TODO Auto-generated method stub
 		
 		if(n>1) {
 			calculateBinaryRepresentation(n/2);
 		}
-		System.out.println(" n is : "+n+" binary is "+n%2);
+		
+		
+		System.out.println(" n is : "+n+" binaryRep is "+n%2);
 		
 	}
 
