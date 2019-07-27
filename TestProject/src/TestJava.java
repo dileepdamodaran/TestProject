@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 
 public class TestJava {
 
@@ -11,10 +12,24 @@ public class TestJava {
 		Character b='d';
 		System.out.println("a less than b "+(a<b));
 		calculateBinaryRepresentation(75);
+		testNode();
+		LinkedList l =new LinkedList();
 	}
 
 	
 	
+	private static void testNode() {
+		// TODO Auto-generated method stub
+		Node n =new Node(8);
+		n.insert(5);
+		n.insert(10);
+		n.insert(9);
+		n.insert(1);
+		n.insert(2);
+	}
+
+
+
 	private static void calculateBinaryRepresentation(int n) {
 		// TODO Auto-generated method stub
 		
