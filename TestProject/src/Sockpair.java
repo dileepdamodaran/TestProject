@@ -15,8 +15,7 @@ public class Sockpair {
 		int pair=0;
         if(null !=ar && n>0){
             //Sort Arrays
-                //[10, 10, 10, 10, 10, 20, 20, 20, 30, 50]
-        	
+                //[10, 10, 10, 10, 10, 20, 20, 20, 30, 50]        	
                 Arrays.sort(ar);
                
                 
@@ -24,15 +23,19 @@ public class Sockpair {
                 int i=0;
                
                 while((i+1)<n){
+                	//Compare i with i+1 , if equals its a pair
                 	if( ar[i]==ar[i+1]) {
                 		pair ++;
+                		//if i=i+1 , then start comparing from next index i+1+1
                 		i=i+2;
                 	}else {
+                		//if not equals move to next index
                 		i++;
                 	}
                 	
                 }
         }
+        //Print pair of socks
         System.out.println( " Matching pair of socks  "+pair);
          
 	}
