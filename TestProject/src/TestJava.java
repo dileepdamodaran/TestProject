@@ -14,6 +14,10 @@ public class TestJava {
 		calculateBinaryRepresentation(75);
 		testNode();
 		LinkedList l =new LinkedList();
+		int ar[]= {};
+		if(null != ar && ar.length>1) {
+			
+		}
 	}
 
 	
