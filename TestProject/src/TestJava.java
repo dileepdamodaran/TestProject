@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class TestJava {
@@ -6,7 +7,7 @@ public class TestJava {
 		int arr[]= {1,2,3,4};
 		int length =arr.length;
 		
-		findMid(arr,0,length-1,2);
+	/*	findMid(arr,0,length-1,2);
 		System.out.println(checkPalindrome("malayalam"));
 		Character a='a';
 		Character b='d';
@@ -17,7 +18,11 @@ public class TestJava {
 		int ar[]= {};
 		if(null != ar && ar.length>1) {
 			
-		}
+		}*/
+		int arr1[] = {-1, 0, 1, 2, -1, -4};
+		Arrays.sort(arr1);
+		System.out.println(arr1);
+		
 	}
 
 	
