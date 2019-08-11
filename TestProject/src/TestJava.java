@@ -33,8 +33,11 @@ public class TestJava {
 		lnkLst.add("C");
 		System.out.println("lnklist"+lnkLst.getFirst());*/
 				twoSum(nums, target);
-		String duplicatChar ="abbdef";
-		System.out.println(duplicatChar.charAt(3)-'a');
+		String s ="leetcode";
+		//System.out.println(duplicatChar.charAt(3)-'a');
+		
+		 
+	       
 		 
 	}
 
