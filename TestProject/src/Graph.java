@@ -47,6 +47,25 @@ public class Graph {
             System.out.println("\n"); 
         } 
     } 
+    
+    // Driver program to test above functions 
+    public static void main(String args[]) 
+    { 
+        // create the graph given in above figure 
+        int V = 5; 
+        Graph graph = new Graph(V); 
+        addEdge(graph, 0, 1); 
+        addEdge(graph, 0, 4); 
+        addEdge(graph, 1, 2); 
+        addEdge(graph, 1, 3); 
+        addEdge(graph, 1, 4); 
+        addEdge(graph, 2, 3); 
+        addEdge(graph, 3, 4); 
+      
+        // print the adjacency list representation of  
+        // the above graph 
+        printGraph(graph); 
+    } 
        
 }
 

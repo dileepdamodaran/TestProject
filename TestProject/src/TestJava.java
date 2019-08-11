@@ -1,12 +1,16 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 
 public class TestJava {
 
 	public static void main(String args[]) {
 		int arr[]= {1,2,3,4};
 		int length =arr.length;
-		
+		int nums[]= {2,7,11,15};
+		int target =9;
+				;
 	/*	findMid(arr,0,length-1,2);
 		System.out.println(checkPalindrome("malayalam"));
 		Character a='a';
@@ -19,13 +23,32 @@ public class TestJava {
 		if(null != ar && ar.length>1) {
 			
 		}*/
-		int arr1[] = {-1, 0, 1, 2, -1, -4};
+		/*int arr1[] = {-1, 0, 1, 2, -1, -4};
 		Arrays.sort(arr1);
 		System.out.println(arr1);
 		
+		LinkedList<String> lnkLst = new LinkedList<String>();
+		lnkLst.add("A");
+		lnkLst.add("B");
+		lnkLst.add("C");
+		System.out.println("lnklist"+lnkLst.getFirst());*/
+				twoSum(nums, target);
+		
+		 
 	}
 
-	
+	private static int[] twoSum(int nums[],int target) {
+		 Map<Integer,Integer> map = new HashMap();
+	        for(int i=0;i<nums.length;map.put(nums[i], i++)){
+	            
+	            if(map.containsKey(target-nums[i])){
+	                return new int[]{map.get(target-nums[i]),i};
+	                
+	            }
+	           
+	        }
+	         return new int[]{0,0};
+	}
 	
 	private static void testNode() {
 		// TODO Auto-generated method stub
