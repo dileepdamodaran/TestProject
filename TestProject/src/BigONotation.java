@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author dileepdamodaran
+ *
+ */
 public class BigONotation {
 	
 	private int[] theArray;

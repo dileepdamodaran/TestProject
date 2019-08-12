@@ -1,6 +1,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 
+ * @author dileepdamodaran
+ *
+ */
 public class QueueLinkedListTest {
 	
 	public static void main(String args[]) {

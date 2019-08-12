@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author dileepdamodaran
+ *
+ */
 public class QuickSort {
 
 	public void quickSort() {

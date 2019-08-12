@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author dileepdamodaran
+ *
+ */
 public class TotalWeightfromString {
 
 	public static void main(String args[]) {
